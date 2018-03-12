@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  File created - Tuesday-March-06-2018   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table PROJECTPO
+--------------------------------------------------------
+
+  CREATE TABLE "PTM"."PROJECTPO" 
+   (	"PROJECT_PO_ID" VARCHAR2(50 BYTE), 
+	"PROJECT_ID_FK" VARCHAR2(50 BYTE), 
+	"PO_START_DATE" DATE, 
+	"PO_END_DATE" DATE, 
+	"COST" VARCHAR2(50 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into PTM.PROJECTPO
+SET DEFINE OFF;

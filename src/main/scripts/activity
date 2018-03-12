@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  File created - Tuesday-March-06-2018   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table ACTIVITY
+--------------------------------------------------------
+
+  CREATE TABLE "PTM"."ACTIVITY" 
+   (	"ACTIVITY_ID" NVARCHAR2(50), 
+	"ACTIVITY_NAME" NVARCHAR2(50)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into PTM.ACTIVITY
+SET DEFINE OFF;
+Insert into PTM.ACTIVITY (ACTIVITY_ID,ACTIVITY_NAME) values ('d7f55a6a-a51f-4c63-b730-efa1d3f8ae52','requirement gathering');
+Insert into PTM.ACTIVITY (ACTIVITY_ID,ACTIVITY_NAME) values ('70964597-828d-4bf9-a985-a9f7e2932cbe','testing');
+Insert into PTM.ACTIVITY (ACTIVITY_ID,ACTIVITY_NAME) values ('0e175bc4-5bb9-4fec-bc56-5d4d59e258ee','coding');
